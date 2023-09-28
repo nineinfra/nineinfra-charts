@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  kyuubi-operator:
+  - apiVersion: v1
+    appVersion: 1.8.1
+    created: "2023-09-28T17:45:33.694868171+08:00"
+    description: A Helm chart for Kyuubi Operator
+    name: kyuubi-operator
+    type: application
+    version: 0.18.1
+    home: https://github.com/nineinfra
+    maintainers:
+    - email: ninebigbig@gmail.com
+      name: nineinfra
+      url: https://github.com/nineinfra
+    sources:
+    - https://github.com/nineinfra/kyuubi-operator-chart.git
+    urls:
+    - https://github.com/nineinfra/kyuubi-operator-chart/blob/master/kyuubi-operator-v0.18.1.tgz
+generated: "2023-09-28T17:45:33.694868171+08:00"
