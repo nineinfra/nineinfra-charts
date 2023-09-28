@@ -16,5 +16,5 @@ entries:
     sources:
     - https://github.com/nineinfra/kyuubi-operator-chart.git
     urls:
-    - https://github.com/nineinfra/kyuubi-operator-chart/blob/master/kyuubi-operator-v0.18.1.tgz
+    - https://github.com/nineinfra/nineinfra-charts/blob/main/kyuubi-operator-v0.18.1.tgz
 generated: "2023-09-28T17:45:33.694868171+08:00"
