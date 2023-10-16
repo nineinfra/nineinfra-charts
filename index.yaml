@@ -17,4 +17,21 @@ entries:
     - https://github.com/nineinfra/nineinfra-charts.git
     urls:
     - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.18.1/kyuubi-operator-v0.18.1.tgz
+  metastore-operator:
+  - apiVersion: v1
+    appVersion: 3.1.3
+    created: "2023-09-28T17:45:33.694868171+08:00"
+    description: A Helm chart for Metastore Operator
+    name: metastore-operator
+    type: application
+    version: 0.313.0
+    home: https://github.com/nineinfra
+    maintainers:
+    - email: ninebigbig@gmail.com
+      name: nineinfra
+      url: https://github.com/nineinfra
+    sources:
+    - https://github.com/nineinfra/nineinfra-charts.git
+    urls:
+    - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.313.0/metastore-operator-v0.313.0.tgz
 generated: "2023-09-28T17:45:33.694868171+08:00"
