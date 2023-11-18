@@ -7,7 +7,7 @@ entries:
     description: A Helm chart for Kyuubi Operator
     name: kyuubi-operator
     type: application
-    version: 0.18.1
+    version: 0.181.4
     home: https://github.com/nineinfra
     maintainers:
     - email: ninebigbig@gmail.com
@@ -16,7 +16,7 @@ entries:
     sources:
     - https://github.com/nineinfra/nineinfra-charts.git
     urls:
-    - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.18.1/kyuubi-operator-v0.18.1.tgz
+    - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/kyuubi-operator-v0.181.4.tgz
   metastore-operator:
   - apiVersion: v1
     appVersion: 3.1.3
@@ -24,7 +24,7 @@ entries:
     description: A Helm chart for Metastore Operator
     name: metastore-operator
     type: application
-    version: 0.313.0
+    version: 0.313.3
     home: https://github.com/nineinfra
     maintainers:
     - email: ninebigbig@gmail.com
@@ -33,5 +33,73 @@ entries:
     sources:
     - https://github.com/nineinfra/nineinfra-charts.git
     urls:
-    - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.313.0/metastore-operator-v0.313.0.tgz
+    - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/metastore-operator-v0.313.3.tgz
+  nineinfra:
+    - apiVersion: v1
+      appVersion: 0.4.4
+      created: "2023-09-28T17:45:33.694868171+08:00"
+      description: A Helm chart for Nineinfra
+      name: nineinfra
+      type: application
+      version: 0.4.4
+      home: https://github.com/nineinfra
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/nineinfra-v0.4.4.tgz
+  cloudnative-pg:
+    - apiVersion: v1
+      appVersion: 16.1.0
+      created: "2023-09-28T17:45:33.694868171+08:00"
+      description: A Helm chart for cloudnative-pg
+      name: cloudnative-pg
+      type: application
+      version: 0.19.1
+      home: https://github.com/cloudnative-pg
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/cloudnative-pg-v0.19.1.tar.gz
+  minio-operator:
+    - apiVersion: v1
+      appVersion: 5.0.9
+      created: "2023-09-28T17:45:33.694868171+08:00"
+      description: A Helm chart for Minio Operator
+      name: minio-operator
+      type: application
+      version: 5.0.9
+      home: https://github.com/minio/operator
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/minio-operator-v5.0.9.tar.gz
+  minio-directpv:
+    - apiVersion: v1
+      appVersion: 4.0.8
+      created: "2023-09-28T17:45:33.694868171+08:00"
+      description: A Helm chart for Minio DirectPV
+      name: minio-directpv
+      type: application
+      version: 4.0.8
+      home: https://github.com/minio/directpv
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/minio-directpv-v4.0.8.tar.gz
 generated: "2023-09-28T17:45:33.694868171+08:00"
