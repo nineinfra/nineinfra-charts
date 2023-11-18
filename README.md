@@ -1,2 +1,2 @@
 # nineinfra-charts
-There are all operators charts of the Nineinfra Project
+There are all charts of the all operators in the Nineinfra Project
