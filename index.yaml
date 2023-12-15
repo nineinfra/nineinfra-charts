@@ -160,7 +160,7 @@ entries:
       description: A Helm chart for Redis
       name: redis
       type: application
-      version: 18.4.0
+      version: 0.7.5
       home: https://github.com/redis/redis
       maintainers:
         - email: ninebigbig@gmail.com
@@ -169,7 +169,7 @@ entries:
       sources:
         - https://github.com/nineinfra/nineinfra-charts.git
       urls:
-        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.5/redis-v18.4.0.tar.gz
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.5/redis-v0.7.5.tar.gz
   zookeeper:
     - apiVersion: v2
       appVersion: 3.9.1
