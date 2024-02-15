@@ -1,39 +1,90 @@
 apiVersion: v2
 entries:
   kyuubi-operator:
-  - apiVersion: v2
-    appVersion: 1.8.1
-    created: "2023-09-28T17:45:33.694868171+08:00"
-    description: A Helm chart for Kyuubi Operator
-    name: kyuubi-operator
-    type: application
-    version: 0.181.4
-    home: https://github.com/nineinfra
-    maintainers:
-    - email: ninebigbig@gmail.com
-      name: nineinfra
-      url: https://github.com/nineinfra
-    sources:
-    - https://github.com/nineinfra/nineinfra-charts.git
-    urls:
-    - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/kyuubi-operator-v0.181.4.tgz
+    - apiVersion: v2
+      appVersion: 1.8.0
+      created: "2024-02-15T17:45:33.694868171+08:00"
+      description: A Helm chart for Kyuubi Operator
+      name: kyuubi-operator
+      type: application
+      version: 0.7.0
+      home: https://github.com/nineinfra
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.7.0/kyuubi-operator-v0.7.0.tar.gz
   metastore-operator:
-  - apiVersion: v2
-    appVersion: 3.1.3
-    created: "2023-09-28T17:45:33.694868171+08:00"
-    description: A Helm chart for Metastore Operator
-    name: metastore-operator
-    type: application
-    version: 0.313.3
-    home: https://github.com/nineinfra
-    maintainers:
-    - email: ninebigbig@gmail.com
-      name: nineinfra
-      url: https://github.com/nineinfra
-    sources:
-    - https://github.com/nineinfra/nineinfra-charts.git
-    urls:
-    - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/metastore-operator-v0.313.3.tgz
+    - apiVersion: v2
+      appVersion: 3.1.3
+      created: "2024-02-15T17:45:33.694868171+08:00"
+      description: A Helm chart for Metastore Operator
+      name: metastore-operator
+      type: application
+      version: 0.7.0
+      home: https://github.com/nineinfra
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.7.0/metastore-operator-v0.7.0.tar.gz
+  doris-operator:
+    - apiVersion: v2
+      appVersion: 2.0.2
+      created: "2024-02-15T17:45:33.694868171+08:00"
+      description: A Helm chart for Doris Operator
+      name: doris-operator
+      type: application
+      version: 1.3.1
+      home: https://github.com/nineinfra
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.7.0/doris-operator-v1.3.1.tar.gz
+  hdfs-operator:
+    - apiVersion: v2
+      appVersion: 3.3.6
+      created: "2024-02-15T17:45:33.694868171+08:00"
+      description: A Helm chart for Hdfs Operator
+      name: hdfs-operator
+      type: application
+      version: 0.7.0
+      home: https://github.com/nineinfra
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.7.0/hdfs-operator-v0.7.0.tar.gz
+  zookeeper-operator:
+    - apiVersion: v2
+      appVersion: 3.8.3
+      created: "2024-02-15T17:45:33.694868171+08:00"
+      description: A Helm chart for Zookeeper Operator
+      name: zookeeper-operator
+      type: application
+      version: 0.7.0
+      home: https://github.com/nineinfra
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.7.0/zookeeper-operator-v0.7.0.tar.gz
   nineinfra:
     - apiVersion: v2
       appVersion: 0.4.4
@@ -51,6 +102,22 @@ entries:
         - https://github.com/nineinfra/nineinfra-charts.git
       urls:
         - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.4/nineinfra-v0.4.4.tgz
+    - apiVersion: v2
+      appVersion: 0.7.0
+      created: "2024-02-15T17:45:33.694868171+08:00"
+      description: A Helm chart for Nineinfra
+      name: nineinfra
+      type: application
+      version: 0.7.0
+      home: https://github.com/nineinfra
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.7.0/nineinfra-v0.7.0.tar.gz
   cloudnative-pg:
     - apiVersion: v2
       appVersion: 16.1.0
