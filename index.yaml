@@ -186,6 +186,22 @@ entries:
         - https://github.com/nineinfra/nineinfra-charts.git
       urls:
         - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.4.5/airflow-v1.12.0.tar.gz
+    - apiVersion: v2
+      appVersion: 2.7.3
+      created: "2024-03-09T13:48:33.694868171+08:00"
+      description: A Helm chart for Apache Airflow
+      name: airflow
+      type: application
+      version: 1.12.1
+      home: https://github.com/apache/airflow
+      maintainers:
+        - email: ninebigbig@gmail.com
+          name: nineinfra
+          url: https://github.com/nineinfra
+      sources:
+        - https://github.com/nineinfra/nineinfra-charts.git
+      urls:
+        - https://github.com/nineinfra/nineinfra-charts/releases/download/v0.8.0/airflow-v1.12.1.tar.gz
   superset:
     - apiVersion: v2
       appVersion: 3.0.1
